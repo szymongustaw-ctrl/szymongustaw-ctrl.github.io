@@ -1,6 +1,27 @@
 body{
+    margin: 0px;
     font-family: Courier, monospace;
     font-size:large;
     font-weight: bold;
-    background-color: rgb(152, 248, 209);
+    background-color: hsl(0, 0%, 85%);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 35%);
+
+}
+.navbar li{
+    float: right;
 }
