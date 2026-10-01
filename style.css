@@ -11,14 +11,14 @@
 
 body{
     margin: 0px;
-    font-family: MartelSans, Courier, monospace;
+    font-family: MartelSans, monospace;
     font-size:large;
     font-weight: bold;
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsla(173, 100%, 54%, 0.304);
 }
 .navbar ul{
     list-style-type: none;
-    background-color: hsl(0, 0%, 35%);
+    background-color: hsl(0, 0%, 0%);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -30,7 +30,7 @@ body{
 }
 
 .navbar a:hover{
-    background-color: hsl(0, 0%, 35%);
+    background-color: hsl(0, 0%, 30%);
 
 }
 .navbar li{
@@ -44,6 +44,12 @@ body{
     font-size:25px;
     background-color:white;
     border-radius:17px;
-    font-family: Cantarell, Courier, monospace; 
+    font-family: Cantarell, monospace; 
     font-style:
+}
+
+.welcome{
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
 }
