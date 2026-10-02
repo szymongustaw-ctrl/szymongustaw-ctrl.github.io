@@ -16,40 +16,48 @@ body{
     font-weight: bold;
     background-color: hsla(173, 100%, 54%, 0.304);
 }
-.navbar ul{
-    list-style-type: none;
+.navbar {
     background-color: hsl(0, 0%, 0%);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-.navbar a{
-    padding: 15px;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-.navbar a:hover{
-    background-color: hsl(0, 0%, 30%);
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+.navbutton:hover{
+    background-color: hsl(0, 0%, 83%);
 
 }
-.navbar li{
-    float: right;
-}
-
 .navbutton{
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 3px;
     font-size:25px;
     background-color:white;
-    border-radius:17px;
+    border-radius:16px;
     font-family: Cantarell, monospace; 
-    font-style:
+    cursor: pointer;
+
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    display: inline-block;
+    line-height: 20px;
 }
 
 .welcome{
     font-size: 30px;
     padding: 40px;
     text-align: center;
+}
+
+.logo{
+    display: block;
 }
