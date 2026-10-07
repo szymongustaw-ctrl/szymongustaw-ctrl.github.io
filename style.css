@@ -1,10 +1,12 @@
 @font-face {
     src: url(fonts/MartelSans-Regular.ttf);
     font-family: MartelSans;
-    
+
+}@font-face {
     src: url(fonts/Cantarell-Bold.ttf);
     font-family: CantarellBold;
 
+}@font-face {
     src: url(fonts/Cantarell-Regular.ttf);
     font-family: Cantarell;
 }
@@ -14,7 +16,7 @@ body{
     font-family: MartelSans, monospace;
     font-size:large;
     font-weight: bold;
-    background-color: hsla(173, 100%, 54%, 0.304);
+    background-color: rgba(20, 255, 228, 0.304);
 }
 .navbar {
     background-color: hsl(0, 0%, 0%);
@@ -51,11 +53,18 @@ body{
     display: inline-block;
     line-height: 20px;
 }
+.navbutton.active{
+    background-color: rgba(220, 20, 60, 0.795);
+}
 
 .welcome{
     font-size: 30px;
     padding: 40px;
     text-align: center;
+}
+
+.welcome h1{
+    font-size: 60px;
 }
 
 .logo{
