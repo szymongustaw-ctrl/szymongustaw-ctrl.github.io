@@ -23,6 +23,7 @@
 }
 
 #homeflexbox{
+    text-align: center;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +52,7 @@
     border: 2px solid black;
 }
 
-#strengths{
+#strengths li{
     list-style: none;
     font-size: 20px;
     width: fit-content;
@@ -62,7 +63,8 @@
     background-color: #eff1f1;
     border-radius: 12px;
     max-width: 100%;
-    padding: 10px;
+    padding: 3px;
+    margin-bottom: 15px;
 
 }
 
@@ -74,11 +76,13 @@
     border: 3px solid #000000;
     text-align: center;
     padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #eff1f1;
     min-width: 200px;
     min-height: 50px;
     border-radius: 12px;
-    max-width: 67%;
+    max-width: 67%
     
 }
 
@@ -258,37 +262,48 @@ body{
 }
 
 #dashboardtable td.result-passed {
-    background-color: #8fff8f !important;
-    color: black;
+    background-color: hsl(120, 100%, 78%) ;
+    color: hsl(120, 100%, 10%);
 }
 
 #dashboardtable td.result-resit {
-    background-color: #fff388 !important;
-    color: black;
+    background-color: hsl(54, 100%, 77%) ;
+    color: hsl(54, 100%, 10%);
 }
 
 #dashboardtable td.result-failed {
-    background-color: #fd5d5d !important;
-    color: black;
+    background-color: hsl(0, 100%, 67%) ;
+    color: hsl(0, 100%, 8%);
 }
 
-.blog-post{
+.blogpost{
     background-color: white;
     border:3px solid black;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
-.blog-post h2{
+.blogpost h2{
     font-size: 34px;
     color: black;
+
 }
 
-.blog-post p{
+.blogpost p{
     font-size: 20px;
 }
 
+
+#blogdate{
+
+    font-size: 14px;
+
+
+}
 
 
 .AboutMe h2{
@@ -304,14 +319,6 @@ body{
     border-radius: 6px  ;
 }
 
-.AboutMe p{
-    font-size: 30px;
-    padding: 10px;
-    min-width: 300px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #tagline {
     text-align: center;
@@ -355,4 +362,194 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+#githublogo img{
+    width: 30px;
+    
+}
+
+#githublogo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#githublogo a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#charaslist h2{
+    font-size: 40px;
+    text-align: center;
+    border:3px solid black;
+    background-color: #ccd5d68a;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 6px  ;
+}
+
+#charaslist ul{
+    text-align: center;
+    list-style: none;
+}
+
+#charaslist li{
+    font-size: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000000;
+    text-align: center;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eff1f1;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    max-width: 67%;
+    
+}
+
+#blogfeed{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 30px;
+    align-items: center;
+    max-width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+
+#blogcontent h2{
+    font-size: 36px;
+}
+
+#blogtag{
+    font-size: 14px;
+    text-align: center;
+    color: hsl(0, 0, 20%);
+    margin-bottom: 25px;
+}
+
+#swottable{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#swottablerow{
+    display: flex;
+
+}
+
+#swottablerow p{
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#swottablerow div{
+    min-width: 400px;
+    min-height: 300px;
+    border-radius: 12px;
+    margin: 1px;
+    max-width: 400px;
+    max-height: 300px ;
+}
+
+#swotstren{
+    border: 4px solid hsla(335, 87%, 30%, 1);
+    background-color: hsla(335, 87%, 40%, 0.6);
+    color:  rgb(230, 204, 214);
+    font-size: 20px;
+}
+
+#swotstren #swottitle{
+    font-size: 40px;
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#swotweak{
+    border: 4px solid hsl(202, 87%, 30%);
+    background-color: hsla(202, 87%, 40%, 0.6);
+    color:  hsl(202, 34%, 85%);
+    font-size: 20px;
+}
+
+#swotweak #swottitle{
+    font-size: 40px;
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#swotoppo{
+    border: 4px solid hsl(120, 87%, 30%);
+    background-color: hsla(120, 87%, 40%, 0.6);
+    color:  hsl(120, 34%, 85%);
+    font-size: 20px;
+}
+
+#swotoppo #swottitle{
+    font-size: 40px;
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#swotthreats{
+    border: 4px solid hsl(49, 87%, 30%);
+    background-color: hsla(49, 87%, 40%, 0.6);
+    color:  hsl(49, 34%, 90%);
+    font-size: 20px;
+}
+
+#swotthreats #swottitle{
+    font-size: 40px;
+    margin-top: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#smarttable table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#smarttable td, #smarttable th {
+    padding: 4px;
+    margin: 0px;
+    border-collapse: collapse;
+
+
+}
+
+#tablestren ,#tablestren td{ 
+    border: 4px solid hsla(335, 87%, 30%, 1);
+    background-color: hsla(335, 87%, 40%, 0.6);
+    color:  hsl(337, 34%, 90%);
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+#tableweak ,#tableweak td{ 
+    border: 4px solid hsl(202, 87%, 30%);
+    background-color: hsla(202, 87%, 40%, 0.6);
+    color:  hsl(202, 34%, 85%);
+    border-collapse: collapse;
+    padding: 8px;
 }

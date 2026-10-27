@@ -37,18 +37,23 @@ function setGradeStatus(gradeId, status, ecId) {
 
     if (status === "result-passed") {
         ec.innerHTML = "5/5";
-        grade.innerHTML = "passed";
+        grade.innerHTML = "Passed";
     } else if (status === "no-result") {
         ec.innerHTML = "-/5";
         grade.innerHTML = "No result";
+    } else if (status === "result-resit") {
+        ec.innerHTML = "-/5";
+        grade.innerHTML = "To be resit";
+    } else if (status === "result-failed") {
+        ec.innerHTML = "-/5";
+        grade.innerHTML = "Failed";
     }
-
     updateProgress();
 }
 
-setGradeStatus("grade1", "no-result", "ec1")
-setGradeStatus("grade2", "no-result", "ec2")
-setGradeStatus("grade3", "no-result", "ec3")
+setGradeStatus("grade1", "result-passed", "ec1")
+setGradeStatus("grade2", "result-resit", "ec2")
+setGradeStatus("grade3", "result-failed", "ec3")
 setGradeStatus("grade4", "no-result", "ec4")
 setGradeStatus("grade5", "no-result", "ec5")
 setGradeStatus("grade6", "no-result", "ec6")
