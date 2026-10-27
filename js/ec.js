@@ -51,9 +51,9 @@ function setGradeStatus(gradeId, status, ecId) {
     updateProgress();
 }
 
-setGradeStatus("grade1", "result-passed", "ec1")
-setGradeStatus("grade2", "result-resit", "ec2")
-setGradeStatus("grade3", "result-failed", "ec3")
+setGradeStatus("grade1", "no-result", "ec1")
+setGradeStatus("grade2", "no-result", "ec2")
+setGradeStatus("grade3", "no-result", "ec3")
 setGradeStatus("grade4", "no-result", "ec4")
 setGradeStatus("grade5", "no-result", "ec5")
 setGradeStatus("grade6", "no-result", "ec6")

@@ -47,13 +47,15 @@
 }
 
 #myphoto img{
-    width: 55%;
+    margin-top: 30px;
+    width: 75%;
     border-radius: 12px;
     border: 2px solid black;
 }
 
 #strengths li{
-    list-style: none;
+    align-items: center;
+    list-style:square ;
     font-size: 20px;
     width: fit-content;
     margin-left: auto;
@@ -65,7 +67,6 @@
     max-width: 100%;
     padding: 3px;
     margin-bottom: 15px;
-
 }
 
 .description{
